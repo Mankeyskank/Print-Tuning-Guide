@@ -127,7 +127,8 @@ parent: Tuning
         (When using the probe *as* the Z endstop. Stock Switchwire and Legacy are set up this way)
             - Enter `Z_OFFSET_APPLY_PROBE`*
                 - This will apply your new offset to your probe's `z_offset`.
-            - Enter `SAVE_CONFIG`.
+            - Enter `SAVE_CONFIG`
+              **MAKE SURE YOU SELECT THE RIGHT ONE OR YOU WILL RUIN YOUR BED!!**
         - **Klicky Auto Z Calibration:**\
         (This is a mod, it uses Klicky AND nozzle endstop to automatically baby step before each print. See [:page_facing_up: here](https://github.com/protoloft/klipper_z_calibration) for more information.)
             - Manually adjust your `switch_offset` based on how much extra you had to baby step. 
